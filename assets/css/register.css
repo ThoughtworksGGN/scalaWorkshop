@@ -1,0 +1,55 @@
+body{
+  overflow-x: hidden;
+}
+.ss-question-list{
+  width: 50%;
+}
+.ss-form-entry label{
+  display: inline-block;
+  padding-bottom: 30px;
+  margin-right: 30px;
+  max-width: 40%;
+}
+.ss-q-title label{
+  display: none;
+}
+.ss-q-title {
+  color: rgb(114, 114, 114);
+}
+input, select{
+  float: right;
+}
+form{
+  left: calc(50% - 200px);
+  position: relative;
+  width: 100%;
+}
+.ss-item.ss-navigate{
+  display: inline-block;
+  position: relative;
+  left: calc(50% - 50px);
+
+}
+#navigation-buttons > input {
+    box-shadow: none;
+    height: 30px;
+    width: 100px;
+    color: rgb(114, 114, 114);
+    font-size: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  input, select{
+    float: none;
+  }
+  .ss-form-entry label{
+    padding-bottom: 5px;
+  }
+  .ss-form-entry .ss-q-item-label{
+    display: block;
+    max-width: 80%;
+  }
+  .ss-form-entry{
+    padding-bottom: 30px;
+  }
+}
